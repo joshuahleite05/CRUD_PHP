@@ -1,0 +1,208 @@
+body{
+    color: white;
+    background-color: #232323;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.espacamento{
+    margin-top: 12.5vh;
+}
+
+.pos_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 30vh; */
+}
+
+
+form{
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 3% 6%;
+    border-radius: 10px;
+}
+.espaco{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.507);
+    padding: 20%; */
+}
+
+.center{
+    text-align: center;
+}
+
+label{
+    margin: 1%;
+}
+
+input{
+    background-color: transparent;
+    border: solid 2px #242424;
+    border-radius: 6px;
+    padding: 2%;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:hover, input:focus{
+    border: solid 2px purple;
+
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.308);
+}
+
+button{
+    width: 30vw;
+    background-color: transparent;
+    border-radius: 6px;
+    border:  2px solid purple;
+    color: purple;
+    padding: 2vh 4vw;
+    margin-top: 3vh;
+    transition: 0.5s;
+    outline: none;
+}
+
+button:hover, button:focus{
+    background-color: purple;
+    border-radius: 6px;
+    border: 1px solid none;
+    color: white;
+}
+
+.btn{
+    border:  2px solid purple;
+    color: purple;
+    text-decoration: none;
+    padding: 1.5% 10%;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.apagar{
+    border:  2px solid #80002b;
+    color: #80002b;
+    text-decoration: none;
+    padding: 1.5% 10%;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+#criar{
+    /* border:  2px solid rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 1, 88);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1.35vh;
+    margin-top: 1.5vh;
+    height: 4vh;
+    width: 7vw;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+#criar:hover{
+    color: purple;
+    background-color: #c648d1;
+}
+
+.apagar:hover{
+    color:#ff0055;
+    ;
+    background-color: #80002b;
+    ;
+}
+
+#margin-right{
+    margin-right: 2vw;
+}
+
+.btn:hover{
+    color: #c648d1;
+    background-color: purple;
+}
+
+.prod{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 3vw;
+    width: 80vw;
+    /* height: 40vh; */
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+.list_row{
+    display: flex;
+    flex-direction: row;
+    color: rgb(148, 29, 148);
+}
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    border-radius: 8px 8px 0px 0px;
+    padding: 1vh 2.5vw;
+}
+
+
+.esq{
+    display: flex;
+    flex-direction: row;
+    width: 40.5vw;
+}
+
+.dir{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 40.5vw;
+
+}
+
+/* versao 1 de th table */
+/* th{
+    background-color: purple;
+    padding: 1%;
+    border-radius: 4px;
+} */
+
+/* versao 2(definitiva) de th table */
+thead{
+    border: solid 2px green;
+}
+
+th{
+    border: solid 1px purple;
+    color: #c648d1;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+td{
+    border: solid 1px #242424;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+::selection{
+    color: #c648d1;
+    background-color: purple;
+}
+
